@@ -1,0 +1,141 @@
+/* start the nav */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.container .nav{
+	background: #222;
+	width: 100%;
+	height: 70px;
+}
+
+.container .nav .logo {
+	color: #f8fc0c;
+	float: left;
+	font-size: 30px;
+	margin-left: 20%;
+	margin-top: 15px;
+
+}
+
+.container .nav .navbar {
+	float: right;	
+}
+.container .nav .navbar ul {
+	margin-top: 5px;
+}
+.container .nav .navbar ul a {
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
+	margin-right: 15px;
+}
+
+.container .nav .navbar ul a li {
+	float: left;
+	margin: 10px;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 5px;
+
+}
+
+.container .nav .navbar ul a .active {
+	background: #f8fc0c;
+	color: #000
+}
+
+.container .nav .navbar ul a li:hover {
+	background: #f8fc0c;
+	color: #000;
+}
+
+/* end the nav */
+
+
+/* start slider*/
+
+.slider img {
+	width: 100%;
+	height: 500px
+}
+
+/* end slider */
+
+
+/* start  features */
+.features {
+	width: 100%;
+	height: 700px;
+	background: #f2f2f2;
+	
+}
+.features .text-features{
+	position: relative;
+	top: 50px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.features .icon-div {
+	margin: 20px;
+    margin-top: 10%;
+} 
+
+.features .icon-div .icon-class {
+	float: right;
+    width: 30%;
+    margin: 1%;
+}
+
+.features .icon-div .icon-class i {
+    width: 85px;
+    height: 76px;
+    float: left;
+    font-size: 70px;
+    padding: 26px;
+    border-radius: 50%;
+    border: 4px solid #e5e2e2;
+    margin: 10px;
+    margin-top: 25px;
+    background: #fff;
+    color: #d9d31a
+}
+
+
+.features .icon-div .icon-class i:hover {
+	background: #d9d31a;
+    color: #fff
+}
+
+/*end features*/
+
+/*start recent*/
+
+.class-recent {
+	width: 100%;
+	height: 700px;
+	background: #fff;
+
+}	
+
+.class-recent  .text-recent {
+	position: relative;
+	top: 80px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.class-recent  .img-recent {
+	margin: auto;
+    width: 89%;
+    margin-top: 9%;
+}
+
+.class-recent  .img-recent img{
+    width: 300px;
+    height: 234px;
+    margin: -2;
+}
